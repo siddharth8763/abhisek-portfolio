@@ -1,71 +1,62 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: '',
   title: 'AD',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Abhisek Das',
   role: 'Back End Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    `Seeking opportunity as a NodeJS developer where I will be able to utilize my strong development skills,
+    educational background and ability to work well with people, which will allow me to grow personally and
+    professionally. Proficient in technologies like NodeJS, REST API, JavaScript, MongoDB,ES6, Core JavaScript
+    concepts like asynchronous programming, Package Managers like NPM.`,
+  resume: ' will add the link ',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'http://www.linkedin.com/in/abhisek-das-293741169',
+    github: 'https://github.com/dasabhisek96/',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Parking Lot',
+    description:`Created a user login and password,Stored the database of the register using MongoDB, Build using Rest API,Node.js and Express. \n Direct driver to parking lots using booking lots according to general and special categories with FIFO.\n If average no of parking slots booked then utilised the extension booking time for customer due to traffic control.\n If general parking is completed then general parking slots booking in queue
+      `,
+    stack: ['JavaScript', 'Node JS', 'Mongo DB', 'Rest API'],
+    sourceCode: '',
+    livePreview: '',
   },
   {
-    name: 'Project 2',
+    name: 'Weather App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      `User enters the name of city and it will give weather of provided city.
+      \n Secured API keys using env variables
+      \n Build using Open Weather Map API
+      `,
+    stack: ['JavaScript', 'Node JS', 'Mongo DB', 'Rest API'],
+    sourceCode: '',
+    livePreview: '',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'C',
+  'C++',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Node JS',
+  'Express JS',
+  'Rest API',
+  'Mongo DB',
+  'MATLAB',
+  'Autocad',
+  'Solidworks',
+  'CATIA',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'abhisek.das.96@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
