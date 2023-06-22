@@ -12,6 +12,7 @@
 
 .project__description {
   margin-top: 1em;
+  text-align: start;
 }
 
 .project__stack {
@@ -26,6 +27,8 @@
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
+  border:1px solid #268b85;
+  padding: 3px;
 }
 
 .project .link--icon {
